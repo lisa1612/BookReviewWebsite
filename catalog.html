@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel = "stylesheet" href="style2.css">
+	<meta charset="UTF-8">
+	<title>Book Catalog</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f2f2f2;
+		}
+
+		h1 {
+			text-align: center;
+			margin-top: 30px;
+			color: #333333;
+		}
+
+		.container1 {
+            display:inline-block;
+			max-width: 1500px;
+			margin: 10px;
+			padding: 5px;
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+			grid-gap: 20px;
+		}
+
+		.cardd {
+			background-color: #ffffff;
+			border-radius: 5px;
+			box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+			padding: 20px;
+			transition: all 0.3s ease-in-out;
+		}
+
+		.cardd:hover {
+			transform: scale(1.05);
+			box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+		}
+
+		.cardd img {
+			max-width: 100%;
+			margin-bottom: 10px;
+		}
+
+		.cardd h2 {
+			font-size: 1.2em;
+			margin-bottom: 10px;
+			color: #333333;
+		}
+
+		.cardd p {
+			font-size: 0.9em;
+			color: #666666;
+			margin-bottom: 10px;
+		}
+
+		.cardd button {
+			background-color: #007bff;
+			color: #ffffff;
+			border: none;
+			border-radius: 5px;
+			padding: 10px 20px;
+			font-size: 0.9em;
+			cursor: pointer;
+		}
+
+		.cardd button:hover {
+			background-color: #0062cc;
+		}
+
+		.search-container {
+			max-width: 1000px;
+			margin: 0 auto;
+			display: flex;
+			flex-wrap: wrap;
+			align-items: center;
+			justify-content: center;
+			margin-bottom: 20px;
+		}
+
+		.search-container input[type=text] {
+			padding: 10px;
+			margin: 10px;
+			font-size: 1em;
+			border: none;
+			border-radius: 5px;
+			width: 100%;
+			max-width: 300px;
+			background-color: #f2f2f2;
+			box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+		}
+
+		@media screen and (min-width: 600px) {
+			.search-container input[type=text] {
+				max-width: 400px;
+			}
+		}
+	</style>
+</head>
+<body>
+    <div class = "navbar">
+        <img src = "logo1.png" alt="LOGO" class="logo">
+        <nav>
+            <ul>
+                <li><a href="service.html"><b>HOME</b></a></li>
+                <li><a href="catalog.html"><b>BOOKS</b></a></li>
+                <li><a href="about.html"><b>ABOUT</b></a></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li><h3>BONITA GOOD READS</h3></li>
+            </ul>
+        
+        </nav>
+    </div>
+
+    <body background="books4.png">  
+
+	<div class="search-container">
+		<input type="text" id="search-input" placeholder="Search books...">
+	</div>
+	<div class="container1">
+		<div class="cardd">
+			<img src="always.jpg" alt="Book Cover">
+			<h2>This is how it always is</h2>
+			<p>-Laurie Frankel</p>
+			<button>Read</button>
+        </div>
+        <div class="cardd">
+            <img src="fault.jpg" alt="Book Cover">
+            <h2>The Fault in our Stars</h2>
+            <p>-John Green</p>
+            <button onclick="window.location.href = 'tfios.html';"> Read </button>
+        </div>
+        <div class="cardd">
+            <img src="gonegirl.jpeg" alt="Book Cover">
+            <h2>Gone Girl</h2>
+            <p>-Gillian Flynn</p>
+            <button onclick="window.location.href = 'gonegirl.html';">Read</button>
+        </div>
+        <div class="cardd">
+            <img src="villain.jpg" alt="Book Cover">
+            <h2>If we were Villains</h2>
+            <p>-M.L RIO</p>
+            <button onclick="window.location.href = 'ifwevillain.html';">Read</button>
+        </div>
+        <div class="cardd">
+            <img src="arrow.png" alt="Book Cover">
+            <h2>An Arrow to the Moon</h2>
+            <p>-Emily X.R Pan</p>
+            <button>Read</button>
+        </div>
+        <div class="cardd">
+            <img src="sam.jpg" alt="Book Cover">
+            <h2>You've Reached Sam</h2>
+            <p>-Dustin Thao</p>
+            <button onclick="window.location.href = 'youvereachedsam.html';">Read</button>
+        </div>
+        <div class="cardd">
+            <img src="kill.jpg" alt="Book Cover">
+            <h2>To Kill a Mockingbird</h2>
+            <p>-Harper Lee</p>
+            <button>Read</button>
+        </div>
+        <div class="cardd">
+            <img src="little.jpg" alt="Book Cover">
+            <h2>The Little Prince</h2>
+            <p>-Antoine De Saint-Exupery</p>
+            <button>Read</button>
+        </div>
+        <div class="cardd">
+            <img src="stranger.jpg" alt="Book Cover">
+            <h2>The Stranger</h2>
+            <p>-Harlen Coban</p>
+            <button>Read</button>
+        </div>
+        <div class="cardd">
+            <img src="fort.jpeg" alt="Book Cover">
+            <h2>The Digital Fortress</h2>
+            <p>-Dan Brown</p>
+            <button>Read</button>
+        </div>
+        <div class="cardd">
+            <img src="malala.jpg" alt="Book Cover">
+            <h2>I am Malala</h2>
+            <p>-Malala Yousafzai</p>
+            <button>Read</button>
+        </div>
+        <div class="cardd">
+            <img src="wonder.jpg" alt="Book Cover">
+            <h2>Wonder</h2>
+            <p>-R.J Palacio</p>
+            <button>Read</button>
+        </div>
+        <div class="cardd">
+            <img src="goodgirl.jpg" alt="Book Cover">
+            <h2>A Good Girl's Guide to Murder</h2>
+            <p>-Holly Jackson</p>
+            <button>Read</button>
+        </div>
+        <div class="cardd">
+            <img src="ugly.jpg" alt="Book Cover">
+            <h2>Ugly Love</h2>
+            <p>-Colleen Hoover</p>
+            <button>Read</button>
+        </div>
+        <div class="cardd">
+            <img src="turtle.jpg" alt="Book Cover">
+            <h2>Turtles all the way down</h2>
+            <p>-John Green</p>
+            <button>Read</button>
+        </div>
+    </div>
+    <script>
+		const searchInput = document.querySelector('#search-input');
+        const cards = document.querySelectorAll('.cardd');
+
+        searchInput.addEventListener('input', () => {
+        const searchTerm = searchInput.value.toLowerCase();
+
+        cards.forEach(cardd => {
+        const title = cardd.querySelector('h2').textContent.toLowerCase();
+        const author = cardd.querySelector('p').textContent.toLowerCase();
+
+        if (title.includes(searchTerm) || author.includes(searchTerm)) {
+            cardd.style.display = 'block';
+        } else {
+        cardd.style.display = 'none';
+    }
+  });
+});
+
+	</script>
+</body>
+</html>    
