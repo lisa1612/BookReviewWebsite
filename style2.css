@@ -7,7 +7,7 @@
 {
     height:100vh;
     width:100%;
-    background-image:url("books4.png");
+    background-image:url("images/books4.png");
     background-position:center;
     background-size:cover;
     padding-left:5%;
@@ -159,19 +159,19 @@ p{
 
 .card1
 {
-    background-image:url(fault.jpg);
+    background-image:url(images/fault.jpg);
 }
 .card2
 {
-    background-image:url(gone.jpg);
+    background-image:url(images/gone.jpg);
 }
 .card3
 {
-    background-image:url(sam.jpg);
+    background-image:url(images/sam.jpg);
 }
 .card4
 {
-    background-image:url(villain.jpg);
+    background-image:url(images/villain.jpg);
 }
 
 .card:hover{
