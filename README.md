@@ -15,4 +15,4 @@ This is a project created for our User Interface Design class. It focuses on the
 ## The Interface
 ![Homepage](results/homepage.png)  
 ![Catalog](results/catalog.png)  
-![About](results/about.png)  
+![About](results/movie1.gif)  
