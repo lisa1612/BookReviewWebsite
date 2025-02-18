@@ -1,8 +1,8 @@
-# BookReviewWebsite
+# BookReviewWebsite 📚
 
 This is a project created for our User Interface Design class. It focuses on the visual layout and design of a book catalog website. While the site isn't fully functional and doesn't support dynamic interactions, it showcases key design principles such as layout, navigation, and responsiveness.
 
-## Design Focus
+## Design Focus 
 - **User Interface Design**: The project showcases a clean and simple interface with attention to user experience (UX) design principles.
 - **Navigation Bar**: Clear and structured navigation to explore different sections of the site
 - **Book Catalog**: Displays a selection of books with placeholders for images and reviews.
@@ -12,7 +12,7 @@ This is a project created for our User Interface Design class. It focuses on the
 - **Search Functionality**: Placeholder search bar is added for a more complete design experience
 
 
-## The Interface
+## The Interface 
 
 ### Homepage
 ![Homepage](results/homepage.png)
@@ -23,3 +23,5 @@ This is a project created for our User Interface Design class. It focuses on the
 ### About
 ![About](results/movie1.gif)
 
+
+*Bonita GoodReads – Curating your reading adventure with elegance.* 🌸 
