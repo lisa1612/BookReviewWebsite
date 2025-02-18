@@ -13,6 +13,13 @@ This is a project created for our User Interface Design class. It focuses on the
 
 
 ## The Interface
-![Homepage](results/homepage.png)  
-![Catalog](results/catalog.png)  
-![About](results/movie1.gif)  
+
+### Homepage
+![Homepage](results/homepage.png)
+
+### Catalog
+![Catalog](results/catalog.png)
+
+### About
+![About](results/movie1.gif)
+
